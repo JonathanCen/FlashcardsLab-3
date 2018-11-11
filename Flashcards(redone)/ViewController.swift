@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         
         // Adding our inital flashcard if needed
         if flashcards.count == 0 {
-            updateFlashcard(question: "What's the capital of Brazil?", answer: "Brasillia", extraAnswerOne: "Rio de Janeiro", extraAnswerTwo: "Sao Paulo")
+            updateFlashcard(question: "What's the captial of Brazil?", answer: "Brasillia", extraAnswerOne: "Rio de Janeiro", extraAnswerTwo: "Sao Paulo")
             
         }
         else{
